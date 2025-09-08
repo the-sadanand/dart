@@ -13,8 +13,9 @@ class Person {
   // second constructor
 
   Person.newBorn() : name = 'Unknown', gender = 'Unknown', age = 0;
-
+// getter for person name here Stirng is type of name
   String get personName => name;
+  // getter for person age here int of type of age which value is going to get
   int get PesonAge => age;
 
   walking() => print('$name is walking');
