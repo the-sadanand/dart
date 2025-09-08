@@ -15,12 +15,14 @@ class Person {
   Person.newBorn() : name = 'Unknown', gender = 'Unknown', age = 0;
 
   String get personName => name;
+  int get PesonAge => age;
 
   walking() => print('$name is walking');
   talking() => print('$name is talking');
 }
 
 main() {
-  var firstPerson = Person('josu', 'Female', 20);
+  var firstPerson = Person('josu', 'Female', 19);
   print(firstPerson.personName);
+  print(firstPerson.PesonAge);
 }
